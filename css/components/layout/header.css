@@ -1,0 +1,27 @@
+body {
+  background-color: #fff; }
+  body p {
+    color: #ff0000; }
+  body a {
+    text-decoration: none; }
+  body span {
+    color: #fff; }
+
+p.small {
+  font-size: 10px; }
+
+p.medium {
+  font-size: 12px; }
+
+.header ul.icon-menu li.icon-box {
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: .3s;
+  margin: 20px 0;
+  border-radius: 50%;
+  background: #2b2a2a;
+  cursor: pointer; }
