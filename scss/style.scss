@@ -252,6 +252,194 @@ p{
 }
 
 
+/*Contact*/
+.contact .custom-span-contact {
+    font-weight: 600;
+    padding-left: 50px;
+    line-height: 25px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.contact .custom-span-contact i {
+    left: 0;
+    top: 10px;
+    font-size: 33px;
+    color: #ffb400;
+}
+.contact ul.social li {
+    display: inline-block;
+}
+.contact ul.social li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 6px;
+    background: #2b2a2a;
+    border-radius: 50%;
+}
+.contact .contactform textarea {
+    border: 1px solid #111;
+    background: #252525;
+    color: #fff;
+    width: 100%;
+    padding: 12px 26px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 30px;
+    outline: none!important;
+    transition: .3s;
+}
+.contact .contactform input[type=email], 
+.contact .contactform input[type=text] {
+    border: 1px solid #111;
+    width: 100%;
+    background: #252525;
+    color: #fff;
+    padding: 11px 26px;
+    border-radius: 30px;
+    outline: none!important;
+    transition: .3s;
+}
+.about .box-stats.with-margin {
+    margin-bottom: 30px;
+}
+.about .c100:after {
+    background-color: #111;
+}
+.c100.p25 .bar {
+    transform: rotate(90deg);
+}
+.c100 .bar, .c100.p100 .fill, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .pie {
+    position: absolute;
+    border: 0.08em solid #307bbb;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0,0.5em,1em,0);
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.c100 .bar, .c100.p100 .fill, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .pie {
+    border: 0.08em solid #ffb400;
+}
+.c100>span {
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    line-height: 5em;
+    font-size: .2em;
+    color: #ccc;
+    text-align: center;
+    white-space: nowrap;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+.c100:after {
+    top: 0.08em;
+    left: 0.08em;
+    content: " ";
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: 0.84em;
+    height: 0.84em;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+
+.about .resume-box .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ffb400;
+}
+.about .resume-box .time {
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 10px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #252525;
+    opacity: .8;
+}
+
+.about-list li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.about-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .box-stats {
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+}
+
+.about .box-stats h3 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffb400;
+}
+.about .box-stats p {
+    padding-left: 45px;
+}
+.about .box-stats h3:after {
+    content: "+";
+    position: absolute;
+    right: -24px;
+    font-size: 33px;
+    font-weight: 300;
+    top: 2px;
+}
+.about .box-stats p:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #777;
+}
+.about .about-list li:not(:last-child), .about .main-content {
+    padding-bottom: 20px;
+}
+.about .about-list .title {
+    opacity: .8;
+    text-transform: capitalize;
+}
+.about .about-list .value {
+    font-weight: 600;
+}
+.custom-title {
+    padding-bottom: 22px;
+    font-size: 26px;
+}
+.open-sans-font {
+    font-family: Open Sans,sans-serif;
+}
+
 
 @media (min-width: 992px){
 	.home .home-details-container {
