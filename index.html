@@ -528,7 +528,7 @@
 		               <ul class="row grid justify-content-center">
 		                  <li>
 		                     <figure data-bs-toggle="modal" data-bs-target="#portfolioModal">
-		                        <img src="/img/project-1.3cb250b1.jpg" alt="Portolio">
+		                        <img src="./images/portfolio-sample-1.png" alt="Portolio">
 		                        <div class="hover-content-wrapper"><span class="content-title">MOCKUP PROJECT</span></div>
 		                     </figure>
 		                  </li>
@@ -784,5 +784,64 @@
 		      </div>
 		   </div>
 		</div>
+
+		<style type="text/css">
+			.portfolio.professional .grid li {
+			    list-style: none;
+			}
+			.portfolio .grid li {
+			    width: 33.333333%;
+			    float: left;
+			    cursor: pointer;
+			    padding: 15px;
+			}
+			.portfolio .grid figure img {
+			    display: block;
+			    position: relative;
+			}
+			.portfolio.professional .grid figure {
+			    transition: .3s;
+			    border-radius: 5px;
+			    padding: 0;
+			    position: relative;
+			    display: flex;
+			    flex-direction: column;
+			    overflow: hidden;
+			}
+			.portfolio.professional .grid figure:before {
+    			 content: "";
+		    	 position: absolute;
+			    background: #fcb92c;
+			    width: 100%;
+			    height: 100%;
+			    left: 0;
+			    top: 0;
+			    z-index: 1;
+			    opacity: 0;
+			    visibility: hidden;
+			    transition: .5s;
+			}
+			.portfolio.professional .grid figure:hover:before {
+			    opacity: 1;
+			    visibility: visible;
+			}
+			.portfolio.professional .grid li figure div span {
+			    margin: 0;
+			    text-transform: uppercase;
+			    color: #fff;
+			    font-size: 18px;
+			    position: absolute;
+			    left: 0;
+			    top: 48%;
+			    transform: translateY(-50%);
+			    text-align: center;
+			    width: 100%;
+			}
+			.portfolio.professional .grid li figure:hover div span {
+			    visibility: visible;
+			    opacity: 1;
+			    transform: translateY(0);
+			}
+		</style>
    </body>
 </html>
